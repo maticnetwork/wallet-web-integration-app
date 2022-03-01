@@ -1,21 +1,18 @@
 .bridge {
-    background: radial-gradient(
-        66.32% 66.32% at 54.13% 113.95%,
-        rgba(108, 38, 255, 0.2) 0%,
-        rgba(242, 89, 255, 0) 100%
-      ),
-      linear-gradient(
-        211.99deg,
-        rgba(65, 157, 241, 0.2) -4.17%,
-        rgba(45, 143, 234, 0) 68.7%
-      ),
-      radial-gradient(
-        62.77% 96.9% at -3.6% 16.83%,
-        #d5bdf5 0%,
-        rgba(250, 247, 254, 0) 100%
-      );
-    width: calc(100vw - 260px);
-    
-    font-size: 64px;
-    font-weight: 600;
+  background: radial-gradient(66.32% 66.32% at 54.13% 113.95%,
+      rgba(108, 38, 255, 0.2) 0%,
+      rgba(242, 89, 255, 0) 100%),
+    linear-gradient(211.99deg,
+      rgba(65, 157, 241, 0.2) -4.17%,
+      rgba(45, 143, 234, 0) 68.7%),
+    radial-gradient(62.77% 96.9% at -3.6% 16.83%,
+      #d5bdf5 0%,
+      rgba(250, 247, 254, 0) 100%);
+  width: calc(100vw - 260px);
+
+  font-size: 64px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,20 +1,45 @@
 {
-  "name": "wallet-web-integration-app",
+  "name": "wwi-app",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.2"
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "react-web-component": "^2.0.2",
+    "react-web-component-style-loader": "^0.1.4-alpha",
+    "web-vitals": "^2.1.0",
+    "webpack": "^5.69.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^1.0.7",
-    "sass": "^1.49.9",
-    "vite": "^2.8.0"
+    "react-app-rewired": "^2.2.1"
   }
 }
