@@ -1,0 +1,15 @@
+.App{
+    display: flex;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+.routes {
+    width: 100%;
+}
+
+.route-path {
+    width: calc(100vw - 260px);
+}
