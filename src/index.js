@@ -6,7 +6,7 @@ import appStyle from './styles/index.scss'
 import App from './App';
 
 // const el = ReactWebComponent.create(<App />, 'demo-app-solution', true);
-// console.log("el", el);
+// console.log("appStyle", appStyle);
 
 class DemoAppSolution extends HTMLElement {
 
