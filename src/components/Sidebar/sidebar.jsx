@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactWebComponent from 'react-web-component';
-import './sidebar.css'
 import { Link } from "react-router-dom";
 import tokenassets from '../../assets/icons/token-gray.svg'
 import bridge from '../../assets/icons/bridge-gray.svg'

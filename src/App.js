@@ -1,9 +1,6 @@
 import React from 'react'
-import ReactWebComponent from 'react-web-component';
-import './App.css'
 import Sidebar from './components/Sidebar/sidebar'
 import {
-  BrowserRouter,
   Routes,
   Route,
   MemoryRouter
