@@ -10,17 +10,17 @@ export default class Sidebar extends React.Component {
     return (
       <div className="sidebar">
         <Link to="/token-assets" className='tab'>
-          <div className='content' > <img src={tokenassets} /> Assets on Polygon</div>
+          <div className='content' > <img src={tokenassets} alt="" /> Assets on Polygon</div>
         </Link>
         <Link to="/bridge" className='tab'>
-          <div className='content' > <img src={bridge} />Bridge</div>
+          <div className='content' > <img src={bridge} alt="" />Bridge</div>
         </Link>
         <Link to="/transactions" className='tab'>
-          <div className='content' ><img src={transaction} />Transactions</div>
+          <div className='content' ><img src={transaction} alt="" />Transactions</div>
         </Link>
       </div>
     )
   }
 }
 
-ReactWebComponent.create(<Sidebar/>, "sidebar-component")
+ReactWebComponent.create(<Sidebar />, "sidebar-component")
