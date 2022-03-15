@@ -1,5 +1,5 @@
 function loadDemoApp(url) {
-    const origin = new URL(url || window.location.href);
+    const origin = new URL(url || window.location.href).origin;
     const srcList = {
         js: []
     }
