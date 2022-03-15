@@ -1,5 +1,6 @@
 function loadDemoApp(url) {
     url = url || location.origin;
+    const origin = new URL(url).origin || location.origin;
     const srcList = {
         js: []
     }
@@ -19,7 +20,7 @@ function loadDemoApp(url) {
         }
 
         const promises = srcList.js.map(src => {
-            return loadScript(src);
+            return loadScript(origin + src);
         });
         return Promise.all(promises);
     })
