@@ -1,9 +1,9 @@
 function loadDemoApp(url) {
-    const origin = new URL(url || window.location.href).origin;
+    url = url || location.origin;
     const srcList = {
         js: []
     }
-    return fetch(origin + '/asset-manifest.json').then(response => {
+    return fetch(url + '/asset-manifest.json').then(response => {
         return response.json();
     }).then(assets => {
         // const assets = response.json();
