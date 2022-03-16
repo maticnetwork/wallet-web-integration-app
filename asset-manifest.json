@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/wallet-web-integration-app/static/js/main.364288db.js",
+    "main.js": "/wallet-web-integration-app/static/js/main.2d320081.js",
+    "scripts/jsstore.worker.min.js": "/wallet-web-integration-app/scripts/jsstore.worker.min.bc3bf3068ac7aeac59229376f94991f7.js",
     "static/media/bridge-gray.svg": "/wallet-web-integration-app/static/media/bridge-gray.41b913c479bce48c98cbd76b92b6faba.svg",
     "static/media/transaction-gray.svg": "/wallet-web-integration-app/static/media/transaction-gray.b5aedc64bcd1bc827b14972c1e1db4eb.svg",
     "index.html": "/wallet-web-integration-app/index.html",
     "static/media/token-gray.svg": "/wallet-web-integration-app/static/media/token-gray.e143cd36ee79d1b13d9bf9d9741d8a05.svg",
-    "main.364288db.js.map": "/wallet-web-integration-app/static/js/main.364288db.js.map"
+    "main.2d320081.js.map": "/wallet-web-integration-app/static/js/main.2d320081.js.map"
   },
   "entrypoints": [
-    "static/js/main.364288db.js"
+    "static/js/main.2d320081.js"
   ]
 }
