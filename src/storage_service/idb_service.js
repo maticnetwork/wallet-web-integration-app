@@ -1,20 +1,12 @@
 import { DATA_TYPE, Connection } from 'jsstore';
 
-const getWorkerPath = () => {
-    if (process.env.NODE_ENV === 'development') {
-         // eslint-disable-next-line
-        return require("file-loader?name=scripts/[name].[hash].js!jsstore/dist/jsstore.worker.js");
-    }
-    else {
-         // eslint-disable-next-line
-        return require("file-loader?name=scripts/[name].[hash].js!jsstore/dist/jsstore.worker.min.js");
-    }
-};
+import workerInjector from "jsstore/dist/worker_injector";
+export const idbCon = new Connection();
 
-// This will ensure that we are using only one instance. 
-// Otherwise due to multiple instance multiple worker will be created.
-const workerPath = getWorkerPath().default;
-export const idbCon = new Connection(new Worker(workerPath));
+idbCon.addPlugin(workerInjector);
+
+
+ 
 export const dbname = 'Demo';
 
 const getDatabase = () => {
