@@ -2,7 +2,7 @@
   "name": "wwi-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/wallet-web-integration-app/",
+  "homepage": "",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -64,7 +64,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "cross-env PUBLIC_URL='/wallet-web-integration-app/' node scripts/build.js",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
@@ -86,6 +86,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "react-app-rewired": "^2.2.1",
     "sass": "^1.49.9"
   },
