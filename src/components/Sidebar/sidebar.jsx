@@ -18,6 +18,10 @@ export default class Sidebar extends React.Component {
         <Link to="/transactions" className='tab'>
           <div className='content' ><img src={transaction} alt="" />Transactions</div>
         </Link>
+        <Link to="/student" className='tab'>
+          <div className='content' >
+            STUDENT</div>
+        </Link>
       </div>
     )
   }
