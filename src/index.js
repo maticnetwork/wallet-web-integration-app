@@ -18,9 +18,9 @@ class DemoAppSolution extends HTMLElement {
         // shadowRoot.appendChild(container);
         ReactDOM.render(<App />, shadowRoot);
 
-        const styleTag = document.createElement('style');
-        styleTag.innerHTML = appStyle;
-        shadowRoot.appendChild(styleTag);
+        // const styleTag = document.createElement('style');
+        // styleTag.innerHTML = appStyle;
+        // shadowRoot.appendChild(styleTag);
     }
 }
 
