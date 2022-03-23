@@ -117,7 +117,7 @@ module.exports = function (webpackEnv) {
       //     : {},
       // },
       {
-        loader: 'style-loader',
+        loader: isEnvDevelopment ? 'style-loader' :'style-loader', // MiniCssExtractPlugin.loader,
         options: {
           insert: (el) => {
             const insertIntoShodowRoot = () => {

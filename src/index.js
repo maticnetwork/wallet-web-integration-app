@@ -2,7 +2,7 @@ import React from 'react';
 // import ReactWebComponent from 'react-web-component';
 import ReactDOM from 'react-dom';
 import './index.css';
-import appStyle from './styles/index.scss'
+import './styles/index.scss'
 import App from './App';
 
 // const el = ReactWebComponent.create(<App />, 'demo-app-solution', true);
